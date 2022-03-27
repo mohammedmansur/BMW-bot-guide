@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>Hello</pattern>
+    <template>Hi There How Can i help you.</template>
+</category>
+
+<category>
+    <pattern>hello my name is *</pattern>
+    <template>Hi <star/> How Can i help you</template>
+</category>
+
+<category>
+    <pattern>^ what ^ do ^</pattern>
+    <template>im BMW bot service for guiding you to know details about our car.</template>
+</category>
+
+<category>
+    <pattern>what ^ services</pattern>
+    <template>im BMW bot service for guiding you to know details about our car.</template>
+</category>
+
+<category>
+    <pattern>what ^ provide ^</pattern>
+    <template>i'm 24/7 online chat service for any questions you have.</template>
+</category>
+
+<category>
+    <pattern>^ my name is *</pattern>
+    <template>Hi <star/> nice to meet you, How Can i help you</template>
+</category>
+
+<category>
+    <pattern>Helo</pattern>
+    <template>Hi There How Can i help you.</template>
+</category>
+
+<category>
+    <pattern>Hallo</pattern>
+    <template>Hi There How Can i help you.</template>
+</category>
+
+<category>
+    <pattern>Halaw</pattern>
+    <template>Hi There How Can i help you.</template>
+</category>
+	
+<category>
+    <pattern>hi</pattern>
+    <template>Hi There How Can i help you.</template>
+</category>	
+
+<category>
+    <pattern>what is BMW</pattern>
+    <template>BMW stands for Bavarian Motor Works (Bayerische Motoren Werke in German). The company, formally BMW AG, was founded in Munich in 1916. BMW began as a WWI airplane engine manufacturer.</template>
+</category>
+
+<category>
+    <pattern>which type of comapany is</pattern>
+    <template>BMW is a car copany made in Germany</template>
+</category>
+	
+<category>
+    <pattern>^ BMW KNOWN ^</pattern>
+    <template>Because BMW is known for making ultramodern luxury cars with 
+    the latest features and technologies, you may think that the company 
+    was founded in the modern era. BMW was founded in 1916 and just recently 
+    celebrated its 100th anniversary. The logo for BMW is distinctive and easily 
+    recognizable.</template>
+</category>
+
+<category>
+    <pattern>^ BMW mean ^</pattern>
+    <template><delay>3</delay>Because BMW is known for making ultramodern luxury cars with 
+    the latest features and technologies,<delay>3</delay> you may think that the company 
+    was founded in the modern era.<delay>3</delay> BMW was founded in 1916 and just recently 
+    celebrated its 100th anniversary.<delay>3</delay> The logo for BMW is distinctive and easily 
+    recognizable.</template>
+</category>
+
+<category>
+    <pattern>^ best car ^ BMW ^</pattern>
+    <template><delay>2</delay>The 6 Best BMW Cars Ever Made<delay>2</delay>
+    <button>
+        <text>BMW E30 M3 (1986-1991)</text>
+        <postback></postback>
+    </button>
+    <button>
+        <text>BMW i8 (2014-2020) ...</text>
+        <postback>BMW i8</postback>
+    </button>
+        <button>
+        <text>BMW 4 Series (2014-present) ...</text>
+        <postback>BMW 4 Series</postback>
+    </button>
+        <button>
+        <text>BMW 3 Series (1975-present) ...</text>
+        <postback>BMW 3 Series</postback>
+    </button>
+        <button>
+        <text>BMW X1 (2009-present) ...</text>
+        <postback>BMW X1</postback>
+    </button>
+        <button>
+        <text>BMW Z3 (1998-2003))</text>
+        <postback>BMW Z3</postback>
+    </button>
+<delay>3</delay>
+    click to each one if you want more information about them.
+</template>
+</category>
+
+<category>
+    <pattern>^ E30 ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW E30 M3 is one of the most iconic and winning race cars in the BMW M car lineup. It was produced as a true race car that was sold as a homologation special to compete in the DTM and Group A Touring race series, which required a total of 5,000 cars to be built.</template>
+</category>
+
+<category>
+    <pattern>^ i8 ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW i8 was a plug-in hybrid sports car developed by BMW. The i8 was part of BMW's electrified fleet and was marketed under the BMW i sub-brand. The production version of the BMW i8 was unveiled at the 2013 Frankfurt Motor Show and was released in Germany in June 2014.</template>
+</category>
+
+<category>
+    <pattern>^ 4 Series ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW 4 Series is a range of compact executive cars manufactured by BMW since 2013. The 4 Series was created when BMW spun off the 2-door models (coupé and convertible) of the 3 Series into a separate series. The 4 Series is currently in its second generation.</template>
+</category>
+
+<category>
+    <pattern>^ 3 Series ^</pattern>
+    <template>The BMW 3 Series is a line of compact executive cars manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.</template>
+</category>
+
+<category>
+    <pattern>^ X1 ^</pattern>
+    <template>The BMW X1 is a five-seat SUV available in two trims: the front-wheel-drive sDrive28i or the all-wheel-drive xDrive28i. Both are powered by a turbocharged 2.0-liter four-cylinder engine (228 horsepower, 258 lb-ft) mated to an eight-speed automatic transmission.</template>
+</category>
+
+<category>
+    <pattern>^ Z3 ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW Z3 is a range of two-seater sports cars which was produced from 1995 to 2002. The body styles of the range are: 2-door roadster (E36/7 model code) 2-door coupé (E36/8 model code) The Z3 was based on the E36 3 Series platform, while using the rear semi-trailing arm suspension design of the older E30 3 Series.</template>
+</category>
+
+<category>
+    <pattern>^ best ^</pattern>
+    <template><delay>2</delay>The 6 Best BMW Cars Ever Made<delay>2</delay>
+    <button>
+        <text>BMW E30 M3 (1986-1991)</text>
+        <postback></postback>
+    </button>
+    <button>
+        <text>BMW i8 (2014-2020) ...</text>
+        <postback>BMW i8</postback>
+    </button>
+        <button>
+        <text>BMW 4 Series (2014-present) ...</text>
+        <postback>BMW 4 Series</postback>
+    </button>
+        <button>
+        <text>BMW 3 Series (1975-present) ...</text>
+        <postback>BMW 3 Series</postback>
+    </button>
+        <button>
+        <text>BMW X1 (2009-present) ...</text>
+        <postback>BMW X1</postback>
+    </button>
+        <button>
+        <text>BMW Z3 (1998-2003))</text>
+        <postback>BMW Z3</postback>
+    </button>
+<delay>3</delay>
+    click to each one if you want more information about them.
+</template>
+</category>
+
+<category>
+    <pattern>^ E30 ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW E30 M3 is one of the most iconic and winning race cars in the BMW M car lineup. It was produced as a true race car that was sold as a homologation special to compete in the DTM and Group A Touring race series, which required a total of 5,000 cars to be built.</template>
+</category>
+
+<category>
+    <pattern>^ i8 ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW i8 was a plug-in hybrid sports car developed by BMW. The i8 was part of BMW's electrified fleet and was marketed under the BMW i sub-brand. The production version of the BMW i8 was unveiled at the 2013 Frankfurt Motor Show and was released in Germany in June 2014.</template>
+</category>
+
+<category>
+    <pattern>^ 4 Series ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW 4 Series is a range of compact executive cars manufactured by BMW since 2013. The 4 Series was created when BMW spun off the 2-door models (coupé and convertible) of the 3 Series into a separate series. The 4 Series is currently in its second generation.</template>
+</category>
+
+<category>
+    <pattern>^ 3 Series ^</pattern>
+    <template>The BMW 3 Series is a line of compact executive cars manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.</template>
+</category>
+
+<category>
+    <pattern>^ X1 ^</pattern>
+    <template>The BMW X1 is a five-seat SUV available in two trims: the front-wheel-drive sDrive28i or the all-wheel-drive xDrive28i. Both are powered by a turbocharged 2.0-liter four-cylinder engine (228 horsepower, 258 lb-ft) mated to an eight-speed automatic transmission.</template>
+</category>
+
+<category>
+    <pattern>^ Z3 ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW Z3 is a range of two-seater sports cars which was produced from 1995 to 2002. The body styles of the range are: 2-door roadster (E36/7 model code) 2-door coupé (E36/8 model code) The Z3 was based on the E36 3 Series platform, while using the rear semi-trailing arm suspension design of the older E30 3 Series.</template>
+</category>
+
+<category>
+    <pattern>^ who ^ you ^</pattern>
+    <template><delay>3</delay>Im a BMW bot guider for servicing a customer</template>
+</category>
+
+<category>
+    <pattern>^ define youself ^</pattern>
+    <template><delay>3</delay>Im a BMW bot guider for servicing a customer</template>
+</category>
+
+<category>
+    <pattern>^ called BMW</pattern>
+   <template><delay>3</delay>The acronym BMW stands for Bayerische Motoren Werke GmbH, which roughly translates to the Bavarian Engine Works Company.<delay>3</delay> The name harks back to the company's origin in the German state of Bavaria.<delay>3</delay> It also indicates BMW's original product range: engines for various applications.]</template>
+</category>
+
+<category>
+    <pattern>^ Who ^ built ^</pattern>
+    <template>Karl Rapp: Establishment of BMW. BMW can trace its roots back to Karl Rapp and Gustav Otto.
+    <delay>2</delay>
+In 1916, the Flugmaschinenfabrik Gustav Otto company had merged into Bayerische Flugzeug-Werke AG (BFW) at government behest.</template>
+</category>
+
+<category>
+    <pattern>^ Who ^ invent ^</pattern>
+    <template>Karl Rapp: Establishment of BMW. BMW can trace its roots back to Karl Rapp and Gustav Otto.
+    <delay>2</delay>
+In 1916, the Flugmaschinenfabrik Gustav Otto company had merged into Bayerische Flugzeug-Werke AG (BFW) at government behest.</template>
+</category>
+
+<category>
+    <pattern>Who ^ created BMW ^</pattern>
+    <template>Karl Rapp: Establishment of BMW. BMW can trace its roots back to Karl Rapp and Gustav Otto.<delay>2</delay> In 1916, the Flugmaschinenfabrik Gustav Otto company had merged into Bayerische Flugzeug-Werke AG (BFW) at government behest.</template>
+</category>
+
+<category>
+    <pattern>How ^ BMW ^ year</pattern>
+    <template>
+        <delay>3</delay>
+In 2020, the Bayerische Motoren Werke AG (BMW) shipped about 2.3 million autos worldwide.</template>
+</category>
+
+<category>
+    <pattern>^ fastest ^ car ^</pattern>
+    <template>
+        <delay>2</delay>
+BMW M5 Competition model
+<delay>3</delay>
+The BMW M5 Competition model is currently the fastest production car in the BMW lineup, going from 0 to 60 mph in 3.1 seconds. From coupes all the way up to SUV Sport Activity Vehicles®, BMW even offers a wide range of some of the fastest cars under $100k.
+</template>
+</category>
+
+<category>
+    <pattern>^ owned ^</pattern>
+    <template>
+        <ul>
+            <li><link>
+                <text>Susanne Klatten</text>
+                <url>https://en.wikipedia.org/wiki/Susanne_Klatten</url>
+            </link>
+                </li>
+            <li><link>
+                <text>Stefan Quandt</text>
+                <url>https://en.wikipedia.org/wiki/Stefan_Quandt</url>
+            </link>
+                </li>
+          
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ managers ^</pattern>
+    <template>
+        <ul>
+            <li><link>
+                <text>Susanne Klatten</text>
+                <url>https://en.wikipedia.org/wiki/Susanne_Klatten</url>
+            </link>
+                </li>
+            <li><link>
+                <text>Stefan Quandt</text>
+                <url>https://en.wikipedia.org/wiki/Stefan_Quandt</url>
+            </link>
+                </li>
+          
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ managing ^</pattern>
+    <template>
+        <ul>
+            <li><link>
+                <text>Susanne Klatten</text>
+                <url>https://en.wikipedia.org/wiki/Susanne_Klatten</url>
+            </link>
+                </li>
+            <li><link>
+                <text>Stefan Quandt</text>
+                <url>https://en.wikipedia.org/wiki/Stefan_Quandt</url>
+            </link>
+                </li>
+          
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ manage ^</pattern>
+    <template>
+        <ul>
+            <li><link>
+                <text>Susanne Klatten</text>
+                <url>https://en.wikipedia.org/wiki/Susanne_Klatten</url>
+            </link>
+                </li>
+            <li><link>
+                <text>Stefan Quandt</text>
+                <url>https://en.wikipedia.org/wiki/Stefan_Quandt</url>
+            </link>
+                </li>
+          
+        </ul>
+    </template>
+</category>
+
+<category>
+    <pattern>^ oldest BMW ^</pattern>
+    <template>The First BMW Car was BMW 3/15 was the company's first offering; it was produced as a "Dixi" car between 1927 and 1929 and then as a BMW from July 1929 to March 1932.</template>
+</category>
+
+<category>
+    <pattern>^ Who ^ engines ^ BMW ^</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://www.carlogos.org/logo/Force-Motors-logo-640x424.jpg</image>
+                <title>Force Motors</title>
+                <subtitle>Engine Creator</subtitle>
+                <button>
+                    <text>More Information</text>
+                    <postback></postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>^ engine ^</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://www.carlogos.org/logo/Force-Motors-logo-640x424.jpg</image>
+                <title>Force Motors</title>
+                <subtitle>Engine Creator</subtitle>
+                <button>
+                    <text>More Information</text>
+                    <postback></postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>More Information</pattern>
+    <template>In 2015, BMW assigned Force Motors to produce and test the engines for all cars and SUVs to be made in India. Force Motors set up a dedicated state of the art facility in Chennai close to the BMW factory to produce and supply engines for their 3, 5, 7, GT series cars and X1, X3, X5 series SUVs made in India.</template>
+</category>
+
+<category>
+    <pattern>^ BMW ^ created ^</pattern>
+    <template>
+        <delay>2</delay>
+The corporation was founded in 1916 as a manufacturer of aircraft engines, which it produced from 1917 until 1918 and again from 1933 to 1945.
+Automobiles are marketed under the brands BMW, Mini and Rolls-Royce, and motorcycles are marketed under the brand BMW Motorrad.</template>
+</category>
+
+<category>
+    <pattern>^ Reason ^ creating BMW ^</pattern>
+    <template>
+        <delay>2</delay>
+The corporation was founded in 1916 as a manufacturer of aircraft engines, which it produced from 1917 until 1918 and again from 1933 to 1945.
+Automobiles are marketed under the brands BMW, Mini and Rolls-Royce, and motorcycles are marketed under the brand BMW Motorrad.</template>
+</category>
+
+<category>
+    <pattern>^ BMW ^ successful ^</pattern>
+    <template>
+        <delay>2</delay>
+Considered one of the world's most admired and recognised brands, it is renowned for its exceptional craftsmanship, reliability and high-quality product offering. BMW is regarded as one of the 'Big 3' German car brands, together with Audi and Mercedes.Jul 1, 2016.
+</template>
+</category>
+
+<category>
+    <pattern>^ successful ^</pattern>
+    <template>
+        <delay>2</delay>
+Considered one of the world's most admired and recognised brands, it is renowned for its exceptional craftsmanship, reliability and high-quality product offering. BMW is regarded as one of the 'Big 3' German car brands, together with Audi and Mercedes.Jul 1, 2016.
+</template>
+</category>
+
+<category>
+    <pattern>^ colors ^</pattern>
+    <template>
+        <delay>2</delay>
+The symbolic logo of the BMW Motorsport, more commonly referred to as the BMW M, consists of the three colors blue, purple, and red.
+</template>
+</category>
+
+<category>
+    <pattern>When ^ started</pattern>
+    <template>March 7, 1916, Munich, Germany</template>
+</category>
+
+<category>
+    <pattern>What ^ name ^ BMW ^</pattern>
+    <template>
+    <ul>
+        <li>Bayerische Motoren Werke GmbH</li>
+    </ul>
+The acronym BMW stands for Bayerische Motoren Werke GmbH, which roughly translates to the Bavarian Engine Works Company.
+</template>
+</category>
+
+<category>
+    <pattern>How many employees ^ BMW ^</pattern>
+    <template>
+        <delay>2</delay>
+BMW Group Investor Presentation. Since the reporting year 2020, a new definition for workforce size has been applied. To enable better comparability, the value for 2019 was adjusted accordingly (2019 before adjustment: 133,778 employees).</template>
+</category>
+
+<category>
+    <pattern>What type ^ engine ^</pattern>
+    <template>
+        <delay>3</delay>
+BMW is well known for its history of inline-six (straight-six) engines, a layout it continues to use to this day despite most other manufacturers switching to a V6 layout. The more common inline-four and V8 layouts are also produced by BMW, and at times the company has produced inline-three, V10 and V12 engines.
+    </template>
+</category>
+
+<category>
+    <pattern>Why ^ good ^</pattern>
+    <template>
+        <delay>2</delay>
+BMW is one of the most sought-after premium brands in the world, the vehicles blend power and performance with sporty appeal. They are also sophisticated, classy and everything that you could want in a car when seeking to make a good impression.</template>
+</category>
+
+<category>
+    <pattern>^ called ^ Beamer ^</pattern>
+    <template>
+        <delay>3</delay>
+The nickname “Beamer” comes from Great Britain – and originally served to distinguish it from a British manufacturer* whose motorcycles bore the nickname “Beezer”. But BMW motorcycles also achieved great success on the British racing scene, including the “Isle of Man TT Races”</template>
+</category>
+
+<category>
+    <pattern>^ new ^ cars ^</pattern>
+    <template>
+        <delay>2</delay>
+        There are most cars made in this year, here is a most popular cars.... Click on them.
+        <delay>3</delay>
+        <button>
+            <text>2022 BMW 4 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW 3 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW 7 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW X5</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW X7</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW X2</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW M4 Coupe</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW 5 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <reply>
+            <text>More</text>
+            <postback></postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>^ type ^</pattern>
+    <template>
+        <delay>2</delay>
+        There are most cars made in this year, here is a most popular cars.... Click on them.
+        <delay>3</delay>
+        <button>
+            <text>2022 BMW 4 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW 3 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW 7 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW X5</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW X7</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW X2</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW M4 Coupe</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>2022 BMW 5 Series</text>
+            <postback></postback>
+        </button>
+        <delay>1</delay>
+        <reply>
+            <text>More</text>
+            <postback></postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>2022 BMW 4 Series</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AANvkb7.img?ocid=msaut1</image>
+            <title>BMW 4 Series</title>
+            <subtitle>Price: $45,200$-66,200$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>4 Series</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/4-series/coupe/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>4 Series</pattern>
+    <template>
+        <delay>2</delay>
+This coupe's powerful proportions are perfectly matched by finely engineered TwinPower Turbo engines – from the inline-4 cylinder of the 430i models to the inline-6 cylinder of the M440i models, delivering up to 382 horsepower.</template>
+</category>
+
+<category>
+    <pattern>^ 3 Series ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQ31iz.img?ocid=msaut1</image>
+            <title>BMW 3 Series</title>
+            <subtitle>Price: $41,450$-56,700$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>3 Series</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/3-series/sedan/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>3 Series</pattern>
+    <template>
+        <delay>2</delay>
+The 3 Series brings power and innovation together in a sedan made to move – from the combustion engine and integrated electric motor of the 330e to the M340i’s robust inline-6 cylinder that can generate up to 382 horsepower.</template>
+</category>
+
+<category>
+    <pattern>* 3 Series engine ^</pattern>
+    <template>
+        <delay>2</delay>
+The 3 Series brings power and innovation together in a sedan made to move – from the combustion engine and integrated electric motor of the 330e to the M340i’s robust inline-6 cylinder that can generate up to 382 horsepower.</template>
+</category>
+
+<category>
+    <pattern>^ 7 Series ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AALrZTN.img?ocid=msaut1</image>
+            <title>BMW 7 Series</title>
+            <subtitle>Price: $86,800$-157,800$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>7 Series</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/build-your-own.html#/studio/eppfz8xy/design</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>7 Series</pattern>
+    <template>
+        <delay>2</delay>
+The BMW 745e xDrive Sedan is powered by a 6-cylinder combustion engine and an integrated electric motor for efficient drives while still offering the opulence of BMW’s famous luxury sedan. And with the all-electric range, you can optimize this efficiency on short commutes and local trips.</template>
+</category>
+
+<category>
+    <pattern>* 7 Series engine ^</pattern>
+    <template>
+        <delay>2</delay>
+The BMW 745e xDrive Sedan is powered by a 6-cylinder combustion engine and an integrated electric motor for efficient drives while still offering the opulence of BMW’s famous luxury sedan. And with the all-electric range, you can optimize this efficiency on short commutes and local trips.</template>
+</category>
+
+<category>
+    <pattern>^ X5 ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAP2Mgo.img?ocid=msaut1</image>
+            <title>BMW X5</title>
+            <subtitle>Price: $59,400$-82,800$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>X5</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/x-models/x5/sports-activity-vehicle/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>X5</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>* X5 ^</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>^ X7 ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAPnx2Y.img?ocid=msaut1</image>
+            <title>BMW X7</title>
+            <subtitle>Price: $74,900$-141,300$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>X7</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/x-models/x5/sports-activity-vehicle/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>X7</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>* X7 ^</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>^ X2 ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AALrJW8.img?ocid=msaut1</image>
+            <title>BMW X2</title>
+            <subtitle>Price: $36,600$-46,450$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>X2</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/x-models/x5/sports-activity-vehicle/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>X2</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>* X2 ^</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>^ M4 Coupe ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQDiXw.img?ocid=msaut1</image>
+            <title>BMW M4 Coupe</title>
+            <subtitle>Price: $71,800$-78,800$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>M4 Coupe</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/x-models/x5/sports-activity-vehicle/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>M4 Coupe</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>* M4 Coupe ^</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>^ 5 Series ^</pattern>
+    <template>
+        <card>
+            <image>http://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQDiXw.img?ocid=msaut1</image>
+            <title>BMW 5 Series</title>
+            <subtitle>Price: $54,200$-76,800$</subtitle>
+            <button>
+                <text>About Engine</text>
+                <postback>5 Series</postback>
+            </button>
+            <button>
+                <text>Buy</text>
+                <url>https://www.bmwusa.com/vehicles/x-models/x5/sports-activity-vehicle/build-your-own.html</url>
+            </button>
+        </card>
+    </template>
+</category>
+
+<category>
+    <pattern>5 Series</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>* 5 Series ^</pattern>
+    <template>
+        <delay>2</delay>
+There’s a lot of power under the hood of a BMW X5, whether you choose the inline-6 with the latest 48V mild-hybrid technology, a fuel-efficient plug-in hybrid powertrain, or the M-tuned V-8 engine of the BMW X5 M50i.</template>
+</category>
+
+<category>
+    <pattern>More</pattern>
+    <template>
+        <delay>1</delay>
+        <button>
+            <text>BMW M8 Coupe</text>
+            <postback>M8 Coupe</postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>BMW X6 M</text>
+            <postback>X6 M</postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>BMW Z4</text>
+            <postback>Z4</postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>BMW M8 Gran Coupe</text>
+            <postback>M8 Gran Coupe</postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>BMW X5 M</text>
+            <postback>X5 M</postback>
+        </button>
+        <delay>1</delay>
+        <button>
+            <text>BMW 2 Series</text>
+            <postback>2 Series</postback>
+        </button>
+    </template>
+</category>
+</aiml>
